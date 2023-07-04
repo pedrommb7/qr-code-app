@@ -1,0 +1,10 @@
+@use "../common" as *;
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: $font-family-outfit;
+  margin: 0;
+}

@@ -1,0 +1,6 @@
+@use "./assets/styles/_common.scss" as *;
+@use "./assets/styles/main.scss" as *;
+
+body {
+  background-color: $color-neutral-lightgray;
+}
