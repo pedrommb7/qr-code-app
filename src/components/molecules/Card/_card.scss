@@ -3,13 +3,14 @@
 
 .card {
   background-color: $color-neutral-white;
+  box-shadow: $elevation-01;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
   img {
-    width: 288px;
-    height: 288px;
+    width: 18rem;
+    height: 18rem;
   }
 }

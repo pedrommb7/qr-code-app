@@ -1,2 +1,5 @@
 @use "./colors" as *;
 @use "./spacings" as *;
+
+$elevation-01: $spacing-00 $spacing-25 $spacing-25 $spacing-00
+  rgba(0, 0, 0, 0.05);
