@@ -1,7 +1,6 @@
-import React, { FC } from "react";
-import { HeadingProps } from "./types";
+import React from "react";
 
-const Heading: FC<HeadingProps> = ({ type, text, className }) => {
+const Heading = ({ type, text, className }) => {
   switch (type) {
     case "h1":
       return <h1 className={className}>{text}</h1>;
