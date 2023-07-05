@@ -6,13 +6,13 @@ import "./_card.scss";
 
 const Card = () => {
   return (
-    <section className="card flex flex--column flex__align--center border-radius--20">
+    <section className="card flex flex--column flex__justify--center flex__align--center border-radius--20">
       <img
         src={qrcode}
         alt="qr-code"
         className="border-radius--10 mx--16 mt--16 mb--24"
       />
-      <div className="card__text mx--16 mb--40">
+      <div className="card__text mx--16 mb--40 flex flex--column flex__justify--center flex__align--center">
         <Heading
           type={"h1"}
           text="Improve your front-end skills by building projects"

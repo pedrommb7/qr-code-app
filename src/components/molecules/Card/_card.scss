@@ -13,4 +13,19 @@
     width: 18rem;
     height: 18rem;
   }
+
+  &__text {
+    width: 18rem;
+    height: 8.063rem;
+
+    h1 {
+      font-size: $font-size-22;
+    }
+
+    p {
+      font-size: $font-size-15;
+      width: 16rem;
+      margin: 0;
+    }
+  }
 }
